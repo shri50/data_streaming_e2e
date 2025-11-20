@@ -9,9 +9,9 @@ fake = Faker()
 
 # Azure Event Hub credentials
 # Azure Event Hub credentials
-BOOTSTRAP_SERVERS = 'data-streaming-sit.servicebus.windows.net:9093'
-EVENT_HUB_CONNECTION_STRING = 'Endpoint=sb://data-streaming-sit.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=/Cx8H9p9w5cLqNSbpLk2niAtKgHELet3s+AEhGhcDZI='
-EVENT_HUB_NAME = 'ecom_data'
+# BOOTSTRAP_SERVERS = 'data-streaming-sit.servicebus.windows.net:9093'
+# EVENT_HUB_CONNECTION_STRING = 'Endpoint=sb://data-streaming-sit.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=/Cx8H9p9w5cLqNSbpLk2niAtKgHELet3s+AEhGhcDZI='
+# EVENT_HUB_NAME = 'ecom_data'
 
 producer = KafkaProducer(
     bootstrap_servers=BOOTSTRAP_SERVERS,
