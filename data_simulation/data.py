@@ -9,7 +9,7 @@ fake = Faker()
 categories = ['Electronics', 'Books', 'Clothing', 'Home Decor', 'Toys']
 locations = [
     {"city": "New Delhi", "state": "DL", "lat": 28.7041, "lon": 77.1025},
-    {"city": "Mumbai Angeles", "state": "MU", "lat": 18.9582, "lon": 72.8321},
+    {"city": "Mumbai", "state": "MU", "lat": 18.9582, "lon": 72.8321},
     {"city": "Pune", "state": "PN", "lat": 18.5246, "lon": 73.8786},
     {"city": "Bengaluru", "state": "BR", "lat": 12.9629, "lon": 77.5775},
     {"city": "Kolkata", "state": "KL", "lat": 22.5744, "lon": 88.3629}
